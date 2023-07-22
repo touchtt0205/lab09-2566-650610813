@@ -21,7 +21,6 @@ export const Task = ({
           <span>{title}</span>
         )
         }
-      <span>{title}</span>
       <button className="btn btn-success" onClick={toggleBtnOnClick}>
         Done</button>
       <button className="btn btn-danger" onClick={deleteBtnOnClick}>
