@@ -9,6 +9,10 @@ export const Task = ({
     deleteTaskFunc(id);
   };
 
+  const toggleBtnOnClick = () => {
+    toggleDoneTaskFunc(id);
+  };
+
   return (
     <div className="d-flex p-3 gap-2 align-items-center border-bottom">
       {/*
